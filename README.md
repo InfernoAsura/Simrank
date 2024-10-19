@@ -3,3 +3,4 @@ SimRank is a graph-based measure of similarity introduced by Jeh and Widom in 20
 
 # Power Method for SimRank
 This repository contains the implementation of the Power Method, which is the simplest iterative approach to compute SimRank scores between nodes. The method works by repeatedly refining the similarity scores of nodes based on the scores of their neighbors until convergence. 
+The input graph for this code is provided in the .egr format. You can find examples of graphs in this format at the following link, https://userweb.cs.txstate.edu/~burtscher/research/ECLgraph/index.html. The graphs were taken from snap datasets, and converted into .egr format. 
